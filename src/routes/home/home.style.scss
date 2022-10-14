@@ -103,6 +103,7 @@
                 font-weight: 600;
 
                 text-decoration: none;
+                text-transform: uppercase;
 
                 transition: color ease 180ms;
 
@@ -114,6 +115,7 @@
 
         &-image-holder {
             display: block;
+            overflow: hidden;
 
             position: absolute;
             top: 0;
@@ -139,6 +141,16 @@
             object-position: right bottom;
 
             filter: brightness(220%) grayscale(100%);
+            animation: ken-burns 10s ease forwards;
+
+            @keyframes ken-burns {
+                from {
+                    transform: scale(1);
+                }
+                to {
+                    transform: scale(1.1125);
+                }
+            }
         }
 
         &-headlines {

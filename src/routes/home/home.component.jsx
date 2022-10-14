@@ -23,7 +23,7 @@ const Home = ({title}) => {
             </nav>
             <div className="hero">
                 <div className="hero-brand">
-                    <a href="/" className="hero-brand-link">モホリ—</a>
+                    <a href="/" className="hero-brand-link">モホリ—。</a>
                 </div>
                 <div className="hero-image-holder">
                     <img className="hero-image" src={heroImage} alt=""/>
