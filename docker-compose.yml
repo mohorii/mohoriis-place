@@ -5,10 +5,10 @@ services:
     build: .
     container_name: mohorii-web
     ports:
-      - 80:80
+      - 8000:80
 
   db:
-    image: mysql:5.7
+    image: mariadb:10.9.3
     container_name: mohorii-db
     environment:
       - MYSQL_ROOT_PASSWORD=123456789
