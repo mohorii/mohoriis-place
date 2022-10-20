@@ -2,13 +2,14 @@ version: "3.2"
 
 services:
   web:
-    build: .
-    container_name: mohorii-web
+    image: php:8.1-apache
+    volumes:
+      - ./build:/var/www/html/
     ports:
       - 8000:80
 
 #  db:
-#    image: mariadb:10.9.3
+#    image: mariadb:10.5.8
 #    container_name: mohorii-db
 #    environment:
 #      - MYSQL_ROOT_PASSWORD=123456789
