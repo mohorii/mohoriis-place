@@ -5,7 +5,7 @@
 Based on the assumption that nodeJS and npm are available you
 can make the build-folder by using
 ``` npm install ``` to install the dev dependencies followed
-by the ``` npm build ``` command.
+by the ``` npm run build ``` command.
 
 ``` docker-compose up``` will start the project and mount the build folder finally.
 
