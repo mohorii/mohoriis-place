@@ -4,7 +4,7 @@ import {NavLink} from "react-router-dom";
 import "./home.style.scss";
 import heroImage from "../../images/me-side.jpg";
 
-import About from "../../components/about/about.component"
+import About from "../../components/about/about.component";
 
 const Home = ({title}) => {
 
@@ -12,14 +12,20 @@ const Home = ({title}) => {
         document.title = `${title} || モホリ—`
     }, [title]);
 
+    const MENU_TOGGLE = () => {
+        const MENU = document.querySelector(".menu")
+        MENU.hasAttribute('data-hidden') ? MENU.removeAttribute('data-hidden') : MENU.setAttribute('data-hidden', 'true')
+    }
+
     return (
         <Fragment>
-            <nav className="header">
-                <NavLink className="header-nav-link" data-is__active to={'/test'}>Home</NavLink>
-                <NavLink className="header-nav-link" to={'/test'}>About</NavLink>
-                <NavLink className="header-nav-link" to={'/test'}>Skills</NavLink>
-                <NavLink className="header-nav-link" to={'/test'}>Works</NavLink>
-                <NavLink className="header-nav-link" to={'/test'}>Contact</NavLink>
+            <nav className="menu" data-hidden>
+                <button className="menu-toggle" onClick={MENU_TOGGLE}>三</button>
+                <NavLink className="menu-nav-link" data-active to={"/test"}>Home</NavLink>
+                <NavLink className="menu-nav-link" to={"/test"}>About</NavLink>
+                <NavLink className="menu-nav-link" to={"/test"}>Skills</NavLink>
+                <NavLink className="menu-nav-link" to={"/test"}>Works</NavLink>
+                <NavLink className="menu-nav-link" to={"/test"}>Contact</NavLink>
             </nav>
             <div className="hero">
                 <div className="hero-brand">
@@ -35,7 +41,7 @@ const Home = ({title}) => {
                 </hgroup>
                 <div className="hero-dots"></div>
             </div>
-            <About />
+            <About/>
         </Fragment>
     );
 }
