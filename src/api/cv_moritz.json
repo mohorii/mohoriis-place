@@ -1,0 +1,354 @@
+{
+  "en": {
+    "contact": {
+      "firstname": "Moritz",
+      "lastname": "Preuss",
+      "address": "Paul-Bonatz-Straße 6",
+      "zipcode": "59076",
+      "city": "Siegen",
+      "country": "Germany",
+      "email": "moritz.preuss@gmx.net"
+    },
+    "languages": {
+      "german": "native",
+      "english": "advanced"
+    },
+    "tech_stack": {
+      "technologies": {
+        "HTML": "professional",
+        "CSS/SCSS/SASS/LESS": "professional",
+        "JavaScript": "advanced",
+        "PHP": "basic skills",
+        "Python": "first steps",
+        "Docker": "first steps"
+      },
+      "libraries_frameworks": {
+        "Bootstrap": "professional",
+        "GreenSock": "advanced",
+        "jQuery": "advanced",
+        "React": "interested",
+        "Vue.js": "interested"
+      },
+      "cms_ecommerce": {
+        "Kirby3": "professional",
+        "Shopware 5": "professional",
+        "Shopware 6": "professional",
+        "TYPO3": "advanced",
+        "WordPress": "basic skills",
+        "Contao": "basic skills"
+      },
+      "template_engines": {
+        "Smarty": "professional",
+        "Twig": "advanced",
+        "Fluid": "advanced"
+      },
+      "other": [
+        "GitHub",
+        "GitLab",
+        "Jira",
+        "Confluence",
+        "npm",
+        "yarn",
+        "WebPack"
+      ]
+    },
+    "education": [
+      {
+        "id": "5",
+        "begin": "March 2022",
+        "end": "March 2022",
+        "subjects": ["Digital Media Operator Instructor"],
+        "place": "IHK Siegen",
+        "company": "STEILAUFWAERTS GmbH",
+        "grade": null
+      },
+      {
+        "id": "4",
+        "begin": "August 2014",
+        "end": "July 2017",
+        "subjects": ["Digital Media Operator"],
+        "place": "Berufskolleg Technik Siegen",
+        "company": "PSV Marketing Gmbh",
+        "grade": "1.0, best of the year trainee in northrhine westphalia"
+      },
+      {
+        "id": "3",
+        "begin": "October 2012",
+        "end": "August 2014",
+        "subjects": ["Teacher training in social science and history"],
+        "place": "University of Siegen",
+        "company": false,
+        "grade": "without graduation"
+      },
+      {
+        "id": "2",
+        "begin": "October 2009",
+        "end": "October 2012",
+        "subjects": ["Literary-, Cultural- & Media studies and Language and Communication"],
+        "place": "University of Siegen",
+        "company": false,
+        "grade": "without graduation"
+      },
+      {
+        "id": "1",
+        "begin": "June 2000",
+        "end": "June 2009",
+        "subjects": ["English", "History", "Biology", "German"],
+        "place": "Märkisches Gymnasium Hamm",
+        "company": false,
+        "grade": "3.1"
+      }
+    ],
+    "experience": [
+      {
+        "company": "STEILAUFWAERTS GmbH",
+        "city": "Siegen",
+        "country": "Germany",
+        "positions": [
+          "Frontend Developer",
+          "Shopware Theme Developer"
+        ],
+        "from": "September 2020",
+        "until": "Present",
+        "tasks": [
+          "since 2021: Instructor for digital media operator trainees",
+          "Frontend-/Panel development Kirby3",
+          "Templating Shopware",
+          "Theme development Shopware",
+          "Plug-in configuration Shopware"
+        ]
+      },
+      {
+        "company": "PSV Neo",
+        "city": "Siegen",
+        "country": "Germany",
+        "positions": [
+          "Frontend Developer",
+          "TYPO3 Integrator",
+          "Shopware Theme Developer"
+        ],
+        "from": "March 2019",
+        "until": "August 2020",
+        "tasks": [
+          "Frontend development TYPO3",
+          "Templating Shopware",
+          "Plug-in development TYPO3/Shopware",
+          "Plug-in configuration TYPO3/Shopware",
+          "Content management TYPO3/WordPress/Shopware"
+        ]
+      },
+      {
+        "company": "PSV Marketing",
+        "city": "Siegen",
+        "country": "Germany",
+        "positions": ["Content Manager", "Frontend Developer"],
+        "from": "July 2017",
+        "until": "March 2019",
+        "tasks": [
+          "Theme development WordPress/TYPO3",
+          "Plug-in configuration WordPress/TYPO3",
+          "Content management WordPress/TYPO3"
+        ]
+      },
+      {
+        "company": "PSV Marketing",
+        "city": "Siegen",
+        "country": "Germany",
+        "positions": ["Media Operator Print/Digital", "Content Manager"],
+        "from": "August 2014",
+        "until": "July 2017",
+        "tasks": [
+          "Creating print media e.g. business cards, catalogues, flyers",
+          "Creating digital media e.g. Powerpoint presentations",
+          "Creating screen designs",
+          "Content management WordPress/Contao"
+        ]
+      }
+    ],
+    "volunteers": [
+      {
+        "id": "1",
+        "begin": "2019",
+        "end": "present",
+        "subjects": ["Media Operator Audit Comitee"],
+        "place": "IHK Siegen"
+      }
+    ]
+  },
+  "de": {
+    "contact": {
+      "firstname": "Moritz",
+      "lastname": "Preuss",
+      "address": "Paul-Bonatz-Straße 6",
+      "zipcode": "59076",
+      "city": "Siegen",
+      "country": "Deutschland",
+      "email": "moritz.preuss@gmx.net"
+    },
+    "languages": {
+      "german": "Muttersprache",
+      "english": "fließend"
+    },
+    "tech_stack": {
+      "technologies": {
+        "HTML": "professional",
+        "CSS/SCSS/SASS/LESS": "professional",
+        "JavaScript": "fortgeschritten",
+        "PHP": "Basic-Skills",
+        "Python": "erste Schritte",
+        "Docker": "erste Schritte"
+      },
+      "libraries_frameworks": {
+        "Bootstrap": "professional",
+        "GreenSock": "fortgeschritten",
+        "jQuery": "fortgeschritten",
+        "React": "interested",
+        "Vue.js": "interested"
+      },
+      "cms_ecommerce": {
+        "Kirby3": "professionell",
+        "Shopware 5": "professionell",
+        "Shopware 6": "fortgeschritten",
+        "TYPO3": "fortgeschritten",
+        "WordPress": "Basic-Skills",
+        "Contao": "Basic-Skills"
+      },
+      "template_engines": {
+        "Smarty": "professionell",
+        "Twig": "fortgeschritten",
+        "Fluid": "fortgeschritten"
+      },
+      "other": [
+        "GitHub",
+        "GitLab",
+        "Jira",
+        "Confluence",
+        "npm",
+        "yarn",
+        "WebPack"
+      ]
+    },
+    "education": [
+      {
+        "id": "5",
+        "begin": "März 2022",
+        "end": "März 2022",
+        "subjects": ["Ausbildereignung für Mediengestalter für Digital- und Printmedien"],
+        "place": "IHK Siegen",
+        "company": "STEILAUFWAERTS GmbH",
+        "grade": null
+      },
+      {
+        "id": "4",
+        "begin": "August 2014",
+        "end": "Juli 2017",
+        "subjects": ["Mediengestalter für Digital- und Printmedien, Fachrichtung Digital"],
+        "place": "Berufskolleg Technik Siegen",
+        "company": "PSV Marketing Gmbh",
+        "grade": "1.0, Jahrgangsbester Auszubildender NRW"
+      },
+      {
+        "id": "3",
+        "begin": "Oktober 2012",
+        "end": "August 2014",
+        "subjects": ["Lehramt in Sozialwissenschaften und Geschichte"],
+        "place": "Universität Siegen",
+        "company": false,
+        "grade": "ohne Abschluss"
+      },
+      {
+        "id": "2",
+        "begin": "Oktober 2009",
+        "end": "Oktober 2012",
+        "subjects": ["Literatur, Kultur und Medien mit Sprache und Kommunikation"],
+        "place": "Universität Siegen",
+        "company": false,
+        "grade": "ohne Abschluss"
+      },
+      {
+        "id": "1",
+        "begin": "Juni 2000",
+        "end": "Juni 2009",
+        "subjects": ["Englisch", "Geschichte", "Biologie", "Deutsch"],
+        "place": "Märkisches Gymnasium Hamm",
+        "company": false,
+        "grade": "3.1"
+      }
+    ],
+    "experience": [
+      {
+        "company": "STEILAUFWAERTS GmbH",
+        "city": "Siegen",
+        "country": "Deutschland",
+        "positions": [
+          "Frontend Developer",
+          "Shopware Theme Developer"
+        ],
+        "from": "September 2020",
+        "until": "heute",
+        "tasks": [
+          "seit 2021: Ausbilder Mediengestalter Digital",
+          "Frontend-/Panel-Entwicklung Kirby3",
+          "Templating Shopware",
+          "Theme-Entwicklung Shopware",
+          "Plug-in-Konfiguration Shopware"
+        ]
+      },
+      {
+        "company": "PSV Neo",
+        "city": "Siegen",
+        "country": "Deutschland",
+        "positions": [
+          "Frontend Developer",
+          "TYPO3 Integrator",
+          "Shopware Theme Developer"
+        ],
+        "from": "März 2019",
+        "until": "August 2020",
+        "tasks": [
+          "Frontend-Entwicklung TYPO3",
+          "Templating Shopware",
+          "Plug-in-Entwicklung TYPO3/Shopware",
+          "Plug-in-Konfiguration TYPO3/Shopware",
+          "Content Management TYPO3/WordPress/Shopware"
+        ]
+      },
+      {
+        "company": "PSV Marketing",
+        "city": "Siegen",
+        "country": "Deutschland",
+        "positions": ["Content Manager", "Frontend Developer"],
+        "from": "Juli 2017",
+        "until": "März 2019",
+        "tasks": [
+          "Theme-Entwicklung WordPress/TYPO3",
+          "Plug-in-Konfiguration WordPress/TYPO3",
+          "Content Management WordPress/TYPO3"
+        ]
+      },
+      {
+        "company": "PSV Marketing",
+        "city": "Siegen",
+        "country": "Deutschland",
+        "positions": ["Mediengestalter Print/Digital", "Content Manager"],
+        "from": "August 2014",
+        "until": "Juli 2017",
+        "tasks": [
+          "Kreation von Geschäftsausstattung",
+          "Kreation von Powerpointpräsentationen",
+          "Kreation von Screendesigns",
+          "Content Management WordPress/Contao"
+        ]
+      }
+    ],
+    "volunteers": [
+      {
+        "id": "1",
+        "begin": "2019",
+        "end": "heute",
+        "subjects": ["Prüfungsausschuss Mediengestalter für Digital- und Printmedien"],
+        "place": "IHK Siegen"
+      }
+    ]
+  }
+}

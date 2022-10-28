@@ -11,6 +11,7 @@
     url('./fonts/open-sans-v34-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
     url('./fonts/open-sans-v34-latin-300.svg#OpenSans') format('svg'); /* Legacy iOS */
 }
+
 /* open-sans-regular - latin */
 @font-face {
     font-family: 'Open Sans';
@@ -24,6 +25,7 @@
     url('./fonts/open-sans-v34-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
     url('./fonts/open-sans-v34-latin-regular.svg#OpenSans') format('svg'); /* Legacy iOS */
 }
+
 /* open-sans-600 - latin */
 @font-face {
     font-family: 'Open Sans';
@@ -37,6 +39,7 @@
     url('./fonts/open-sans-v34-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
     url('./fonts/open-sans-v34-latin-600.svg#OpenSans') format('svg'); /* Legacy iOS */
 }
+
 /* open-sans-800 - latin */
 @font-face {
     font-family: 'Open Sans';
@@ -59,7 +62,8 @@
     --mo-gray-dark: #272727;
     --mo-white: #fff;
     --mo-yellow: #FEF200;
-    --mo-primary: var(--mo-yellow);
+    --mo-green: #99bb33;
+    --mo-primary: var(--mo-green);
 
     --mo-header-height: 5rem;
 }
@@ -75,4 +79,38 @@ body {
     font-family: 'Open Sans', 'Segoe UI', 'Roboto', 'Droid Sans', 'Helvetica Neue', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+.page {
+    position: relative;
+
+    &:after {
+        content: '';
+        display: block;
+        z-index: 50000;
+
+        pointer-events: none;
+
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+
+        width: 100%;
+        height: 100%;
+
+        background-color: var(--mo-white);
+
+        animation: fadeIn 150ms ease forwards;
+
+        @keyframes fadeIn {
+            from {
+                opacity: 1;
+            }
+            to {
+                opacity: 0;
+            }
+        }
+    }
 }
